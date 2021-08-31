@@ -1,0 +1,18 @@
+.welcome {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 5rem;
+}
+
+.Link {
+  margin: 3rem auto;
+  text-align: center;
+  font-size: 2rem;
+  color: green;
+}
+.welcome a:hover {
+  color: rgb(5, 87, 5);
+}
