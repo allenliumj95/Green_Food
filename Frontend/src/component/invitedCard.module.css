@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin-left: 35px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column1 {
+  float: left;
+  width: 30%;
+}
+
+.column2 {
+  margin-left: 2px;
+  float: left;
+  width: 68%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /*this adds the "card" effect */
+  padding: 2px;
+  margin-left: 0px;
+  text-align: left;
+  background-color: white;
+  border-radius: 10px 0 0 10px;
+  border-left: 15px solid #3aebb6;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /*this adds the "card" effect */
+  padding: 2px;
+  /* margin-left: 0px; */
+  text-align: left;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.date {
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  font-weight: 700;
+}
+
+.task {
+  margin-left: 20px;
+  margin-bottom: 1px;
+}
+
+.salary {
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.hospital {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 1px;
+}
+
+.star {
+  margin-left: 10px;
+  margin-bottom: 1px;
+}
+
+.location {
+  margin-left: 10px;
+}
+
+.decline {
+  background-color: white; /* Green */
+  border-color: black;
+  color: black;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 12px;
+}
+
+.apply {
+  background-color: #29334f; /* Green */
+  border: none;
+  color: white;
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  float: right;
+  margin-right: 35px;
+  margin-top: 12px;
+}
+
+.fa_custom {
+  color: gold;
+}
